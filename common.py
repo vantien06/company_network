@@ -7,7 +7,7 @@ host_ip='10.255.255.255'
 port=1
 #def get_ip_add()
 def get_ip_addr():
-    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #greekforgreek
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     try:
         s.connect((host_ip, port))
         IP = s.getsockname()[0]
