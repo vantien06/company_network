@@ -21,7 +21,7 @@ def get_ip_addr():
     return IP
 #define message could be sent between 
 # client and server or client and client
-class message(Enum):
+class mess_type(Enum):
     HANDSHAKE = 1
     REQUEST = 2
     RESPONSE = 3

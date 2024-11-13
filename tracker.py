@@ -8,7 +8,7 @@ from common import mess_type
 
 
 SERVER_PORT = 12500
-SERVER_IP = common.get_ip_address()
+SERVER_IP = common.get_ip_addr()
 LISTEN_DURATION = 5
 RECEIVE_SIZE = 1024
 CODE = 'utf-8'
