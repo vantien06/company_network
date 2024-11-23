@@ -32,4 +32,3 @@ class mess_type(Enum):
     SERVER_UPDATE_REQUEST = 8
     SERVER_UPDATE_RESPONSE = 9
     CLOSE = 10
-    
